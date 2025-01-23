@@ -1,27 +1,41 @@
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import Navbar from './components/Navbar'
 import ProfileCard from './components/ProfileCard'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Creative from './components/Creative'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 
 const page = () => {
+
+  const profileRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
+  const creativeRef = useRef(null);
+
+
   return (
     <div className='flex items-center justify-center'>
-      <div className='w-[1060px]'>
+      <div className='px-10 md:px-0 md:w-[1060px]'>
 
-        <Navbar />
-        <div className='flex px-3 gap-9'>
+        <Navbar
+          profileRef={profileRef}
+          projectsRef={projectsRef}
+          skillsRef={skillsRef}
+          creativeRef={creativeRef}
+        />
+        <div className='md:flex px-3 gap-9'>
           <ProfileCard />
-          <div className='w-2/3 ml-[380px]'>
-            <h1 className='font-bold text-[70px] leading-tight'>
+          <div className='md:w-2/3 md:ml-[380px] pt-5'>
+            <h1 className='font-bold text-[40px] md:text-[70px] leading-tight'>
               Developer by <span className='text-[#AD8AFF]'>Logic</span>,
               <br />
               Designer by <span className='text-[#FAB7B0]'>Heart</span>.
             </h1>
 
-            <p className='text-[#C3C3C3] text-[20px] pt-5 font-roboto'>
+            <p className='text-[#C3C3C3] text-[20px] py-5 font-roboto'>
               Blending clean code and thoughtful design to create seamless, user-focused digital experiences. I bring ideas to life with precision and creativity.
             </p>
 
@@ -43,13 +57,20 @@ const page = () => {
               </div>
 
             </div>
-            <Projects />
-            <Skills />
-            <Creative />
+            <div ref={projectsRef}>
+              <Projects />
+            </div>
+            <div ref={skillsRef}>
+              <Skills />
+            </div>
+            <div ref={creativeRef}>
+              <Creative />
+            </div>
 
           </div>
         </div>
       </div>
+      <ScrollToTopButton/>
     </div>
   )
 }

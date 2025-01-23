@@ -3,15 +3,15 @@ import React from 'react'
 
 const ProfileCard = () => {
     return (
-        <div className='bg-[#89CFF0] w-[353.33px] h-[560px] text-[#1B1B1B] fixed'>
-            <div className='flex justify-center h-3/5 overflow-hidden items-center relative '>
+        <div className='bg-[#89CFF0] md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
+            <div className='flex justify-center h-3/5  overflow-hidden items-center relative '>
                 <Image
                     src='/imagepng/pfp.png'
                     alt='Profile Image'
                     quality={100}
-                    width={300}
-                    height={300}
-                    className='z-10'
+                    width={200}
+                    height={200}
+                    className='z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
                 />
                 <Image
                     src='/iconssvg/Star.svg'
@@ -42,7 +42,7 @@ const ProfileCard = () => {
                     <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>
-                    <a href="/path/to/download/file" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1oPzswstCM0eZIyVI4b4tIWkyynK0h_UU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/download.svg" alt="download" />
                     </a>
                 </div>

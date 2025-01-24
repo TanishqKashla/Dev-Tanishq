@@ -3,23 +3,29 @@ import React from 'react'
 
 const ProfileCard = () => {
     return (
-        <div className='bg-[#89CFF0] md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
+        <div className='bg-[#89CFF0]  md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
+            
             <div className='flex justify-center h-3/5  overflow-hidden items-center relative '>
-                <Image
-                    src='/imagepng/pfp.png'
-                    alt='Profile Image'
-                    quality={100}
-                    width={200}
-                    height={200}
-                    className='z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
-                />
+                <div className='overflow-hidden relative h-[350px]  md:h-full aspect-square mt-3'>
+
+                    <Image
+                        src='/imagepng/pfp.png'
+                        alt='Profile Image'
+                        layout='fill'
+                        objectFit='cover'
+                        objectPosition='center'
+                        quality={100}
+                        
+                        className=' z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
+                    />
+                </div>
                 <Image
                     src='/iconssvg/Star.svg'
                     alt='Frame'
                     quality={100}
                     width={800}
                     height={800}
-                    className='absolute -top-32 -left-16 z-0 custom-svg-size'
+                    className='absolute -top-32 -left-16 -z-10 custom-svg-size'
                 />
 
             </div>

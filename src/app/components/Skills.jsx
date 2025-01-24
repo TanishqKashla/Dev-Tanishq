@@ -3,9 +3,9 @@ import React from 'react'
 const Skills = () => {
   return (
       <div>
-          <h2 className='heading pt-16 leading-none'>SKILLS & TOOLS</h2>
+      <h2 className='text-5xl font-bold md:heading pt-16 leading-none'>SKILLS & TOOLS</h2>
           <p className='lightgray font-roboto text-lg'>Here’s what I work with every day.</p>
-          <div className='grid grid-cols-6 gap-2 md:gap-9 pt-5'>
+          <div className='grid grid-cols-6 gap-2 lg:gap-9 pt-5'>
               <img src='/imagepng/skills/1.png' alt='HTML' />
               <img src='/imagepng/skills/2.png' alt='HTML' />
               <img src='/imagepng/skills/3.png' alt='HTML' />

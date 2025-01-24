@@ -5,7 +5,7 @@ import Card from './Card'
 const Projects = () => {
     return (
         <div>
-            <h2 className='heading pt-16 leading-none' >PROJECTS</h2>
+            <h2 className='text-5xl font-bold md:heading pt-16 leading-none' >PROJECTS</h2>
             <p className='lightgray font-roboto text-lg mb-5'>These are the projects I’ve poured my time and passion into, combining code and design to create something meaningful.</p>
 
             <div className='grid grid-cols-2 gap-5 md:gap-9'>

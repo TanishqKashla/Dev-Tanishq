@@ -17,8 +17,8 @@ const page = () => {
 
 
   return (
-    <div className='flex items-center justify-center'>
-      <div className='px-10 md:px-0 md:w-[1060px]'>
+    <div className=''>
+      <div className=''>
 
         <Navbar
           profileRef={profileRef}
@@ -28,7 +28,7 @@ const page = () => {
         />
         <div className='md:flex px-3 gap-9'>
           <ProfileCard />
-          <div className='md:w-2/3 md:ml-[380px] pt-5'>
+          <div className='w-full md:ml-[380px] pt-5'>
             <h1 className='font-bold text-[40px] md:text-[70px] leading-tight'>
               Developer by <span className='text-[#AD8AFF]'>Logic</span>,
               <br />

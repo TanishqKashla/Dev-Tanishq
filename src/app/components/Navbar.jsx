@@ -15,7 +15,7 @@ const Navbar = ({projectsRef, skillsRef, creativeRef }) => {
                     <img src="/iconssvg/Palette.svg" alt="Creative" onClick={() => handleScroll(creativeRef)} className='cursor-pointer' />
                 </div>
             </div>
-            <div className='flex bg-[#336FAC] gap-4 items-center p-3 px-4 rounded-2xl'>
+            <div className='flex bg-[#336FAC] gap-4 items-center justify-center p-3 px-4 rounded-2xl'>
                 <img src="/iconssvg/Luggage.svg" alt="Contact" style={{ height: '28px' }} />
                 <p>Get in Touch !</p>
             </div>

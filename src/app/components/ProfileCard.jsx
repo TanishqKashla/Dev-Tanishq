@@ -6,7 +6,7 @@ const ProfileCard = () => {
         <div className='bg-[#89CFF0]  md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
             
             <div className='flex justify-center h-3/5  overflow-hidden items-center relative '>
-                <div className='overflow-hidden relative h-[350px]  md:h-full aspect-square mt-3'>
+                <div className='overflow-hidden relative h-[250px]  md:h-full aspect-square mt-3'>
 
                     <Image
                         src='/imagepng/pfp.png'
@@ -25,13 +25,13 @@ const ProfileCard = () => {
                     quality={100}
                     width={800}
                     height={800}
-                    className='absolute -top-32 -left-16 -z-10 custom-svg-size'
+                    className='absolute -top-32 -left-16  custom-svg-size'
                 />
 
             </div>
             <div className='flex flex-col pt-5 items-center '>
-                <h2 className='text-[40px]'>Tanishq Kashla</h2>
-                <div className='font-roboto text-xl flex flex-col items-center'>
+                <h2 className='text-4xl md:text-[40px]'>Tanishq Kashla</h2>
+                <div className='font-roboto text-base md:text-xl flex flex-col items-center'>
                     <p>Web Developer | Designer </p>
                     <p>  Delhi, India</p>
                 </div>

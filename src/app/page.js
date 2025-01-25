@@ -17,7 +17,7 @@ const page = () => {
 
 
   return (
-    <div className=''>
+    <div className='mt-24'>
       <div className=''>
 
         <Navbar
@@ -29,7 +29,7 @@ const page = () => {
         <div className='md:flex px-3 gap-9'>
           <ProfileCard />
           <div className='w-full md:ml-[380px] pt-5'>
-            <h1 className='font-bold text-[40px] md:text-[70px] leading-tight'>
+            <h1 className='font-bold text-[36px] md:text-[70px] leading-tight'>
               Developer by <span className='text-[#AD8AFF]'>Logic</span>,
               <br />
               Designer by <span className='text-[#FAB7B0]'>Heart</span>.
@@ -41,10 +41,10 @@ const page = () => {
 
             <div className='bg-[#D6F089] text-[#181818] px-5 py-7'>
               <p className='text-lg'>ABOUT ME</p>
-              <h2 className='font-roboto text-3xl pt-5'>
+              <h2 className='font-roboto text-2xl md:text-3xl pt-5'>
                 Hey, I’m Tanishq Kashla, a self-taught frontend developer and budding UI/UX designer based in New Delhi.
               </h2>
-              <div className='font-roboto text-2xl flex gap-10 pt-8 '>
+              <div className='font-roboto text-xl md:text-2xl flex gap-10 pt-8 '>
                 <div >
                   <h4 className='font-bold'>10+</h4>
                   <h4>Happy Clients</h4>

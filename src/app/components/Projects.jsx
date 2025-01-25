@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Card from './Card'
+import HeadingSubheading from './HeadingSubheading'
 
 const Projects = () => {
     return (
         <div>
-            <h2 className='text-5xl font-bold md:heading pt-16 leading-none' >PROJECTS</h2>
-            <p className='lightgray font-roboto text-lg mb-5'>These are the projects I’ve poured my time and passion into, combining code and design to create something meaningful.</p>
-
+            <HeadingSubheading heading={'PROJECTS'} subheading={'These are the projects I’ve poured my time and passion into, combining code and design to create something meaningful.'} />
             <div className='grid grid-cols-2 gap-5 md:gap-9'>
 
                 <Card src={'/imagepng/projects/1.png'} title={'Nebula Accelerator'} desc={'Saas Website UI Design'} />

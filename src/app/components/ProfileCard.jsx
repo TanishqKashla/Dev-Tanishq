@@ -42,9 +42,9 @@ const ProfileCard = () => {
                     <a href="https://github.com/TanishqKashla" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/github.svg" alt="linkedin" />
                     </a>
-                    <a href="mailto:tanishqkashla11@gmail.com" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="mailto:tanishqkashla11@gmail.com" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/mail.svg" alt="email" />
-                    </a>
+                    </a> */}
                     <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>

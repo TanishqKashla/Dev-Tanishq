@@ -14,8 +14,8 @@ const Card = ({ src, title, desc, link }) => {
           className='transition-transform duration-500 transform hover:scale-110'
         />
       </div>
-      <h5 className='text-2xl pt-2'>{title}</h5>
-      <p className='text-lg font-roboto lightgray'>{desc}</p>
+      <h5 className='text-base md:text-2xl pt-2'>{title}</h5>
+      <p className='text-sm md:text-lg font-roboto lightgray'>{desc}</p>
     </div>
   )
 }

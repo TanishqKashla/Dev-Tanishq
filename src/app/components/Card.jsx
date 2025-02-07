@@ -1,10 +1,16 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 
 const Card = ({ src, title, desc, link }) => {
+
+  const handleClick = (link) => {
+    window.location.href = link;
+  }
+
   return (
     <div className='overflow-hidden cursor-pointer'>
-      <div className='overflow-hidden'>
+      <div className='overflow-hidden' onClick={() => handleClick(link)}>
         <Image
           src={src}
           alt='Project 1'

@@ -1,0 +1,147 @@
+[
+    {
+        "id": "100",
+        "title": "Nebula Accelerator",
+        "desc": "I worked on Nebula Accelerator, a startup-focused website, where I designed the complete UI/UX for both desktop and mobile views, ensuring full responsiveness across all screen sizes. This project gave me deep industry insights, enhancing my understanding of user experience principles, responsive design strategies, and the importance of collaboration in product development. It was a great opportunity to refine my UI/UX skills while working on a real-world project.",
+        "link": "https://www.nebulaaccelerator.org/",
+        "figmaLink": "https://www.figma.com/design/yOVsCq71RFftwKvMzecLVE/Nebula-Accelerator?node-id=324-259&t=flJQkY6je2ghpy6j-1",
+        "skills": [
+            "UI/UX",
+            "Figma",
+            "Responsive Design",
+            "Wireframe"
+        ],
+        "image1": "/details/images/projects/nebula/1.png",
+        "image2": "/details/images/projects/nebula/2.png",
+        "image3": "/details/images/projects/nebula/3.png",
+        "image4": "/details/images/projects/nebula/4.png"
+    },
+    {
+        "id": "101",
+        "title": "Write It Blogs",
+        "desc": "This was a personal full-stack project where I built a blogging platform that allows users to read blogs, create profiles, and publish their own blogs with full CRUD functionalities, including editing and deleting posts. The website features a subtle and clean UI, which I designed myself for a smooth and engaging user experience. I developed this project using Next.js for the frontend and backend, integrating Cloudinary for efficient image storage and management. This project was a significant learning experience, helping me refine my skills in full-stack development, UI/UX design, and cloud integration.",
+        "link": "https://write-it-blogs.vercel.app/",
+        "gitrepo": "https://github.com/TanishqKashla/Write-It-Blogs",
+        "skills": [
+            "NextJS",
+            "Tailwind",
+            "Responsive Design",
+            "UI/UX",
+            "Cloudinary"
+        ],
+        "image1": "/details/images/projects/writeit/1.png",
+        "image2": "/details/images/projects/writeit/2.png",
+        "image3": "/details/images/projects/writeit/3.png",
+        "image4": "/details/images/projects/writeit/4.png"
+    },
+    {
+        "id": "102",
+        "title": "News On Point",
+        "desc": "News on Point is a news scraping website that extracts and displays the top headlines from three major Indian news websites using Puppeteer. The project is a single-page website designed for quick access to the latest news without visiting multiple sources. This project helped me learn web scraping and handle challenges like dynamic website structures, stable element selection, and efficient data extraction. It also strengthened my skills in automation, data handling, and frontend presentation.",
+        "gitrepo": "https://github.com/TanishqKashla/NewsOnPoint",
+        "skills": [
+            "NodeJS",
+            "Web Scraping",
+            "Puppeteer",
+            "Tailwind"
+        ],
+        "image1": "/details/images/projects/newsonpoint/1.png",
+        "image2": "/details/images/projects/newsonpoint/2.png",
+        "image3": "/details/images/projects/newsonpoint/3.png",
+        "image4": "/details/images/projects/newsonpoint/4.png"
+    },
+    {
+        "id": "103",
+        "title": "Wolf Decentralized",
+        "desc": "Wolf Decentralized is a Web3 SaaS website that I designed in collaboration with a team. Over the course of one week, I created a modern, tech-focused UI that aligns with the futuristic and innovative nature of the blockchain space.This project allowed me to explore cutting-edge UI/UX design principles tailored for Web3 startups, enhancing my skills in designing for decentralized platforms while ensuring a sleek, user-friendly experience.",
+        "figmaLink": "https://www.figma.com/design/mWTnKzuTihyoW9MLHPDeQn/Wolf-Decentralized?node-id=172-1035&t=swXhpCARo0S1eVNX-1",
+        "skills": [
+            "UI/UX",
+            "Figma"
+        ],
+        "image1": "/details/images/projects/wolfdec/1.png",
+        "image2": "/details/images/projects/wolfdec/2.png",
+        "image3": "/details/images/projects/wolfdec/3.png",
+        "image4": "/details/images/projects/wolfdec/4.png"
+    },
+    {
+        "id": "104",
+        "title": "Next Watch",
+        "desc": "Next Watch is a movie recommendation platform that provides users with curated movie suggestions using the OMDB API. The website features a modern, attractive, and user-friendly UI, designed to enhance the browsing experience. It includes key sections like the Trending page, Explore page, and Home page, offering users an engaging way to discover movies. This project was one of my most visually appealing works, allowing me to refine my skills in API integration, UI/UX design, and frontend development while creating an intuitive and seamless user experience.",
+        "figmaLink": "https://www.figma.com/design/Bp3Qrmv2R26Ffn7WuOQr8F/Next-Watch?node-id=0-1&t=Q9rmoI45fNXWauHW-1",
+        "skills": [
+            "UI/UX",
+            "Figma",
+            "API Integration"
+        ],
+        "image1": "/details/images/projects/nextwatch/1.png",
+        "image2": "/details/images/projects/nextwatch/2.png",
+        "image3": "/details/images/projects/nextwatch/3.png",
+        "image4": "/details/images/projects/nextwatch/4.png"
+    },
+    {
+        "id": "200",
+        "title": "Magazine Design",
+        "desc": "My journey in magazine design began through my college society, which provided me with the opportunity to learn and lead the design of the college yearbook. Magazine design is a challenging yet rewarding field So far, I have designed two magazines, each bringing unique learnings and experiences. This work has deepened my understanding of layout design, typography, composition, and print production, making it one of the most enriching aspects of my creative journey.",
+
+        "link": "https://online.fliphtml5.com/ggdlj/tbkr/",
+        "skills": [
+            "Photoshop",
+            "Canva"
+        ],
+        "image1": "/details/images/creative/magazine/1.png",
+        "image2": "/details/images/creative/magazine/2.png",
+        "image3": "/details/images/creative/magazine/3.png",
+        "image4": "/details/images/creative/magazine/4.png"
+    },
+    {
+        "id": "201",
+        "title": "Vivanta Brand Identity Design",
+        "desc": "Vivanta is a luxury travel brand for which I created a complete brand identity design as a personal project to showcase my branding skills. I designed a sophisticated and elegant logo along with a visual identity that reflects the brand’s premium and luxurious essence. This project allowed me to explore typography, color psychology, and brand aesthetics, enhancing my ability to craft compelling and cohesive brand identities.",
+
+        "link": "https://www.behance.net/gallery/215503295/Vivanta-Brand-Identity",
+        "figmaLink": "https://www.figma.com/design/v1ccddKYBcQjHQmFAUfKMw/Vivanta-Brand-Identity?node-id=0-1&t=aFHLCQhqnaLNIhTG-1",
+        "skills": [
+            "Illustrator",
+            "Photoshop",
+            "Figma",
+            "Brnad Identity Design"
+        ],
+        "image1": "/details/images/creative/vivanta/1.png",
+        "image2": "/details/images/creative/vivanta/2.png",
+        "image3": "/details/images/creative/vivanta/3.png",
+        "image4": "/details/images/creative/vivanta/4.png"
+    },
+    {
+        "id": "202",
+        "title": "Main10 Brand Identity Design",
+        "desc": "Main10 was a client project where I worked with a startup for over a month and I created their logo, and overall brand identity, ensuring a cohesive and professional look. This project was an invaluable learning experience, allowing me to deepen my understanding of mock-up designs, brand design, color theory, and the branding industry. It gave me firsthand exposure to how the branding field operates, from conceptualization to execution.",
+
+        "link": "https://www.instagram.com/main10.in/",
+        "figmaLink": "https://www.figma.com/design/4NMWhkhK4lWSBJGeg09IpT/Main10-(Branding)?node-id=0-1&t=dWRS1l2rDAGhNXZb-1",
+        "skills": [
+            "Illustrator",
+            "Photoshop",
+            "Figma",    
+            "Brnad Identity Design"
+        ],
+        "image1": "/details/images/creative/main10/1.png",
+        "image2": "/details/images/creative/main10/2.png",
+        "image3": "/details/images/creative/main10/3.png",
+        "image4": "/details/images/creative/main10/4.png"
+    },
+    {
+        "id": "203",
+        "title": "Logo Design",
+        "desc": "Logo design has been a passion of mine for the past two years, where I have continuously experimented and learned to refine my skills. I enjoy the creative challenge of crafting unique and meaningful logos that align with brand identities. For my design process, I use tools like Adobe Illustrator, Photoshop, Canva, and AI tools, while drawing inspiration from platforms like Dribbble and Behance. Logo design is not just about aesthetics—it’s about creating a visual identity that tells a story, and that’s what keeps me engaged in this field.",
+
+        "skills": [
+            "Illustrator",
+            "Photoshop"
+        ],
+        "image1": "/details/images/creative/logo/1.png",
+        "image2": "/details/images/creative/logo/2.png",
+        "image3": "/details/images/creative/logo/3.png",
+        "image4": "/details/images/creative/logo/4.png"
+    }
+]

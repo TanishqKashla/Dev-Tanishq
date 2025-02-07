@@ -19,7 +19,7 @@ const EasterEgg = () => {
             </button>
 
             {isOpen && (
-                <div className='fixed font-roboto inset-0 flex items-center justify-center bg-black bg-opacity-50'>
+                <div className='z-50 fixed font-roboto inset-0 flex items-center justify-center bg-black bg-opacity-50'>
                     <div className='bg-[#efefef] w-[330px] p-5 rounded-lg shadow-lg'>
                         <h2 className='text-xl text-[#424242] mb-4'>Did You Know?</h2>
                         <h2 className='text-2xl text-[#247cbb] font-bold mb-4'>The first computer bug was an actual bug!</h2>

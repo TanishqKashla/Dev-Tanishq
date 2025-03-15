@@ -4,7 +4,7 @@ import React from 'react'
 const ProfileCard = () => {
     return (
         <div className='bg-[#89CFF0]  md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
-            
+
             <div className='flex justify-center h-3/5  overflow-hidden items-center relative '>
                 <div className='overflow-hidden relative h-[250px]  md:h-full aspect-square mt-3'>
 
@@ -15,7 +15,7 @@ const ProfileCard = () => {
                         objectFit='cover'
                         objectPosition='center'
                         quality={100}
-                        
+
                         className=' z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
                     />
                 </div>
@@ -48,7 +48,7 @@ const ProfileCard = () => {
                     <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>
-                    <a href="https://drive.google.com/file/d/1oPzswstCM0eZIyVI4b4tIWkyynK0h_UU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1GDX1JT8Awo6R4oXEXhfQ9jJXwCX4tNT5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/download.svg" alt="download" />
                     </a>
                 </div>

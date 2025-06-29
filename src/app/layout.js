@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tanishq Kashla Portfolio",
-  description: "Frontend Dev | UIUX Designer",
+  title: "Dev Tanishq",
+  description: "Full Stack Dev | UIUX Designer",
 };
 
 export default function RootLayout({ children }) {

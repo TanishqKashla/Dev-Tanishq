@@ -1,11 +1,20 @@
+'use client'
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
+import { motion } from 'framer-motion'
 
 const ProfileCard = () => {
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
         <div className='bg-[#89CFF0]  md:w-[353.33px] pb-3 md:h-[560px] text-[#1B1B1B] md:fixed'>
 
-            <div className='flex justify-center h-3/5  overflow-hidden items-center relative '>
+            <motion.div
+                className='flex justify-center h-3/5  overflow-hidden items-center relative '
+                onHoverStart={() => setIsHovered(true)}
+                onHoverEnd={() => setIsHovered(false)}
+            >
                 <div className='overflow-hidden relative h-[250px]  md:h-full aspect-square mt-3'>
 
                     <Image
@@ -15,20 +24,33 @@ const ProfileCard = () => {
                         objectFit='cover'
                         objectPosition='center'
                         quality={100}
-
                         className=' z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
                     />
                 </div>
-                <Image
-                    src='/iconssvg/Star.svg'
-                    alt='Frame'
-                    quality={100}
-                    width={800}
-                    height={800}
-                    className='absolute -top-32 -left-16  custom-svg-size'
-                />
-
-            </div>
+                <motion.div
+                    className='absolute -top-32 -left-16 custom-svg-size'
+                    animate={isHovered ? { scale: 1.5, rotate: 360 } : { scale: 1, rotate: 0 }}
+                    transition={
+                        isHovered
+                            ? {
+                                scale: { duration: 0.3, ease: "easeInOut" },
+                                rotate: { repeat: Infinity, duration: 15, ease: "linear" }
+                            }
+                            : {
+                                scale: { duration: 0.3, ease: "easeInOut" },
+                                rotate: { duration: 0.3, ease: "easeInOut" }
+                            }
+                    }
+                >
+                    <Image
+                        src='/iconssvg/Star.svg'
+                        alt='Frame'
+                        quality={100}
+                        width={800}
+                        height={800}
+                    />
+                </motion.div>
+            </motion.div>
             <div className='flex flex-col pt-5 items-center '>
                 <h2 className='text-4xl md:text-[40px]'>Tanishq Kashla</h2>
                 <div className='font-roboto text-base md:text-xl flex flex-col items-center'>
@@ -48,7 +70,7 @@ const ProfileCard = () => {
                     <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>
-                    <a href="https://drive.google.com/file/d/1GDX1JT8Awo6R4oXEXhfQ9jJXwCX4tNT5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/10FkRS47oH_Rau9kXSJaCiYPga7YReGQJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/download.svg" alt="download" />
                     </a>
                 </div>

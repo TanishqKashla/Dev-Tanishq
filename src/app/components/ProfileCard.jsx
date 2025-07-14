@@ -70,7 +70,7 @@ const ProfileCard = () => {
                     <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>
-                    <a href="https://drive.google.com/file/d/10FkRS47oH_Rau9kXSJaCiYPga7YReGQJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1W5g_jEuO3IWQb01tUl9qlPLQLnJ_7rRP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/download.svg" alt="download" />
                     </a>
                 </div>

@@ -24,7 +24,7 @@ const ProfileCard = () => {
                         objectFit='cover'
                         objectPosition='center'
                         quality={100}
-                        className=' z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
+                        className='cursor-hover z-10 transition-transform duration-500 transform grayscale hover:grayscale-0'
                     />
                 </div>
                 <motion.div
@@ -52,25 +52,25 @@ const ProfileCard = () => {
                 </motion.div>
             </motion.div>
             <div className='flex flex-col pt-5 items-center '>
-                <h2 className='text-4xl md:text-[40px]'>Tanishq Kashla</h2>
+                <h2 data-cursor="2" className='text-4xl md:text-[40px]'>Tanishq Kashla</h2>
                 <div className='font-roboto text-base md:text-xl flex flex-col items-center'>
                     <p>Web Developer | Designer </p>
                     <p>  Delhi, India</p>
                 </div>
                 <div className='flex pt-5 gap-4'>
-                    <a href="https://www.linkedin.com/in/tanishqkashla/" target="_blank" rel="noopener noreferrer">
+                    <a data-cursor="2" href="https://www.linkedin.com/in/tanishqkashla/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/in.svg" alt="linkedin" />
                     </a>
-                    <a href="https://github.com/TanishqKashla" target="_blank" rel="noopener noreferrer">
+                    <a data-cursor="2" href="https://github.com/TanishqKashla" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/github.svg" alt="linkedin" />
                     </a>
                     {/* <a href="mailto:tanishqkashla11@gmail.com" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/mail.svg" alt="email" />
                     </a> */}
-                    <a href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
+                    <a data-cursor="2" href="https://www.instagram.com/iam_taniiishq/" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/insta.svg" alt="instagram" />
                     </a>
-                    <a href="https://drive.google.com/file/d/1W5g_jEuO3IWQb01tUl9qlPLQLnJ_7rRP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a data-cursor="2" href="https://drive.google.com/file/d/1W5g_jEuO3IWQb01tUl9qlPLQLnJ_7rRP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img src="/iconssvg/download.svg" alt="download" />
                     </a>
                 </div>

@@ -80,6 +80,23 @@
         "image4": "/details/images/projects/nextwatch/4.png"
     },
     {
+        "id": "105",
+        "title": "ClarioAI",
+        "desc": "ClarioAI is a smart study companion that centralizes scattered learning resources into one seamless platform. Instead of switching between YouTube, notes, ChatGPT, and documents, students can organize everything in one place - making studying less overwhelming and more focused. The app features a modern, distraction-free UI designed to give students clarity and structure. This project is one of my most purposeful builds, helping me refine my skills in full stack development, UI/UX design, and productivity-focused workflows, while creating a tool that empowers learners to study with confidence and efficiency.",
+        "link": "https://clarioai.vercel.app/",
+        "gitrepo": "https://github.com/TanishqKashla/ClarioAI",
+        "skills": [
+            "Agentic AI",
+            "NextJS",
+            "Shadcn UI",
+            "Youtube API"
+        ],
+        "image1": "/details/images/projects/clarioai/1.png",
+        "image2": "/details/images/projects/clarioai/2.png",
+        "image3": "/details/images/projects/clarioai/3.png",
+        "image4": "/details/images/projects/clarioai/4.png"
+    },
+    {
         "id": "200",
         "title": "Magazine Design",
         "desc": "My journey in magazine design began through my college society, which provided me with the opportunity to learn and lead the design of the college yearbook. Magazine design is a challenging yet rewarding field So far, I have designed two magazines, each bringing unique learnings and experiences. This work has deepened my understanding of layout design, typography, composition, and print production, making it one of the most enriching aspects of my creative journey.",

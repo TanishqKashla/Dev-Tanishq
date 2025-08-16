@@ -6,9 +6,7 @@ import { TfiArrowTopRight } from "react-icons/tfi";
 
 const DetailsPage = ({ id }) => {
 
-    console.log(id);
-
-    const [details, setDetails] = useState(null);
+       const [details, setDetails] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -41,7 +39,7 @@ const DetailsPage = ({ id }) => {
 
     return (
         <div>
-            <h1 className='text-5xl md:text-7xl font-bold'>{details.title}</h1>
+            <h1 data-cursor="4" className='text-5xl md:text-7xl w-fit font-bold'>{details.title}</h1>
             <p className='lightgray font-roboto pt-3'>{details.desc}</p>
 
 
@@ -52,6 +50,7 @@ const DetailsPage = ({ id }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center bg-[#f57b2f] p-2 rounded-lg text-white"
+                        data-cursor="3"
                     >
                         Link <TfiArrowTopRight className="ml-1" />
                     </a>
@@ -62,6 +61,7 @@ const DetailsPage = ({ id }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center bg-[#3036ea] p-2 rounded-lg text-white"
+                        data-cursor="3"
                     >
                         Git Repo
                     </a>
@@ -72,6 +72,7 @@ const DetailsPage = ({ id }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center bg-[#9044dc] p-2 rounded-lg text-white"
+                        data-cursor="3"
                     >
                         Figma File
                     </a>
@@ -91,7 +92,7 @@ const DetailsPage = ({ id }) => {
             </div>
 
             <div className='grid gap-2 md:gap-5'>
-                <div className='relative overflow-hidden w-full h-[210px] md:h-[350px] rounded-2xl'>
+                <div data-cursor="4" className='relative overflow-hidden w-full h-[210px] md:h-[350px] rounded-2xl'>
                     <Image
                         src={details.image1}
                         alt='Project 1'
@@ -100,11 +101,11 @@ const DetailsPage = ({ id }) => {
                         objectPosition='center'
                         quality={100}
                         className='z-10'
-
+                       
                     />
                 </div>
                 <div className='grid grid-cols-2 gap-2 md:gap-5'>
-                    <div className='relative overflow-hidden h-full rounded-2xl'>
+                    <div data-cursor="4" className='relative overflow-hidden h-full rounded-2xl'>
                         <Image
                             src={details.image2}
                             alt='Project 1'
@@ -117,7 +118,7 @@ const DetailsPage = ({ id }) => {
                         />
                     </div>
                     <div className='grid grid-rows-2 gap-2 md:gap-5 h-[270px] md:h-[450px]'>
-                        <div className='relative overflow-hidden rounded-2xl'>
+                        <div data-cursor="4" className='relative overflow-hidden rounded-2xl'>
                             <Image
                                 src={details.image3}
                                 alt='Project 1'
@@ -128,7 +129,7 @@ const DetailsPage = ({ id }) => {
                                 className='z-10'
                             />
                         </div>
-                        <div className='relative overflow-hidden rounded-2xl'>
+                        <div data-cursor="4" className='relative overflow-hidden rounded-2xl'>
                             <Image
                                 src={details.image4}
                                 alt='Project 1'

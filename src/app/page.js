@@ -8,27 +8,12 @@ import Creative from './components/Creative'
 import ScrollToTopButton from './components/ScrollToTopButton'
 import { useEffect } from 'react'
 import Lenis from 'lenis'
-import Cursor from './components/Cursor'
 
 
 const page = () => {
 
   // Initialize Lenis for smooth scrolling
-  useEffect(() => {
-    const lenis = new Lenis();
-    let animationFrameId;
-
-    function raf(time) {
-      lenis.raf(time);
-      animationFrameId = requestAnimationFrame(raf);
-    }
-    animationFrameId = requestAnimationFrame(raf);
-
-    return () => {
-      if (animationFrameId) cancelAnimationFrame(animationFrameId);
-      if (lenis) lenis.destroy && lenis.destroy();
-    };
-  }, []);
+ 
 
   return (
 
@@ -78,7 +63,6 @@ const page = () => {
 
 
       <ScrollToTopButton />
-      {/* <Cursor /> */}
     </div>
   )
 }

@@ -9,7 +9,7 @@ const Card = ({ src, title, desc, link }) => {
   }
 
   return (
-    <div className='overflow-hidden cursor-pointer'>
+    <div data-cursor="4" className='overflow-hidden cursor-pointer'>
       <div className='overflow-hidden' onClick={() => handleClick(link)}>
         <Image
           src={src}

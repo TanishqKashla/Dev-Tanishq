@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/next';
+import ClientLayout from "./ClientLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,20 +31,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex justify-center `}
       >
-        <Navbar />
-        <div className="px-5 mt-24 md:px-0 md:w-[1060px]">
-          <div className="hidden md:block">
-
-            <ProfileCard />
-          </div>
-          <div className="md:ml-[380px]">
-
-            {children}
-            <Analytics />
-            <SpeedInsights />
-            <Footer />
-          </div>
-        </div>
+        <ClientLayout>
+          {children}
+          <Analytics />
+        </ClientLayout>
       </body>
     </html>
   );
